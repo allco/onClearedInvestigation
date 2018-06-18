@@ -3,7 +3,6 @@ package com.drivekitt.onclearedinvestigation
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
-import android.view.View
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,11 +23,4 @@ class MainActivity : AppCompatActivity() {
         Log.v(TAG, "onDestroy")
     }
 
-    fun onStartClicked(view: View) {
-        supportFragmentManager
-            .beginTransaction()
-            .replace(R.id.container, FragmentSecond())
-            .addToBackStack("second")
-            .commit()
-    }
 }
