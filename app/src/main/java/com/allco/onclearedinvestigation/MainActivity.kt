@@ -1,4 +1,4 @@
-package com.drivekitt.onclearedinvestigation
+package com.allco.onclearedinvestigation
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -7,7 +7,7 @@ import android.util.Log
 class MainActivity : AppCompatActivity() {
 
     companion object {
-        private const val TAG = "MainActivity"
+        private const val TAG = "MainActivity_lll"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,5 +22,4 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
         Log.v(TAG, "onDestroy")
     }
-
 }

@@ -1,4 +1,4 @@
-package com.drivekitt.onclearedinvestigation
+package com.allco.onclearedinvestigation
 
 import android.app.Application
 import android.arch.lifecycle.AndroidViewModel
@@ -7,7 +7,7 @@ import android.util.Log
 class ViewModelFirst(application: Application) : AndroidViewModel(application) {
 
     companion object {
-        private const val TAG = "ViewModelFirst"
+        private const val TAG = "ViewModelFirst_lll"
     }
 
     init {

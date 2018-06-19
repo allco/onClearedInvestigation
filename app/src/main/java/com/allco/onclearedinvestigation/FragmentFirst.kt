@@ -1,4 +1,4 @@
-package com.drivekitt.onclearedinvestigation
+package com.allco.onclearedinvestigation
 
 import android.arch.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -11,7 +11,7 @@ import android.view.ViewGroup
 class FragmentFirst : Fragment() {
 
     companion object {
-        private const val TAG = "FragmentFirst"
+        private const val TAG = "FragmentFirst_lll"
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
